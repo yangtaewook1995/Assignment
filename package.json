@@ -1,0 +1,38 @@
+{
+  "name": "Assigment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./my-server/bin/www"
+  },
+  "authors": [
+    "wook <wooke1995@gmail.com>"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.3",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.7",
+    "ganache-cli": "^6.9.1",
+    "leafleth": "https://github.com/leekt216/leafleth",
+    "solhint": "^2.3.0",
+    "solidity-coverage": "^0.7.4",
+    "truffle": "^5.1.21",
+    "truffle-assertions": "^0.9.2",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "caver-js": "^1.5.5",
+    "netcat": "^1.5.0",
+    "truffle-hdwallet-provider-klaytn": "^1.0.13-a",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
+}
