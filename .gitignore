@@ -2,9 +2,7 @@ node_modules
 coverage
 artifacts
 cache
-build
 coverage.json
-package-lock.json
 **/.*.swp
 allFiredEvents
 crytic-export
